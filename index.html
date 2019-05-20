@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv='Content-Language' content='zh'>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://www.szchenxi.cf/css/bootstrap.min.css">
+	<script>
+		if (('standalone' in window.navigator) && window.navigator.standalone) {
+			var noddy, remotes = false;
+			document.addEventListener('click', function (event) {
+				noddy = event.target;
+				while (noddy.nodeName !== 'A' && noddy.nodeName !== 'HTML') noddy = noddy.parentNode;
+				if ('href' in noddy && noddy.href.indexOf('http') !== -1 && (noddy.href.indexOf(document.location.host) !== -1 || remotes)) {
+					event.preventDefault();
+					document.location.href = noddy.href;
+				}
+			}, false);
+		}
+	</script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132568926-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'UA-132568926-1');
+	</script>
+	<script type="text/javascript">
+		window.onload = () => {
+			let el = document.querySelector('[alt="www.000webhost.com"]').parentNode.parentNode;
+			el.parentNode.removeChild(el);
+		}
+	</script>
+	<title>投稿 |《晨曦》校刊</title>
+	<link href="https://www.szchenxi.cf/favicon.ico" rel="shortcut icon">
+</head>
+
+<body class='lang-zh page-front' ontouchstart=''>
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+			<a href="https://www.szchenxi.cf" class="navbar-brand"><img src="https://www.szchenxi.cf/images/logo.svg"
+					alt="Logo" width="50" height="50" title="Logo" align="absmiddle">
+				<img src="https://www.szchenxi.cf/images/chenxi-white.svg" alt="晨曦" width="54" height="32" title="Logo"
+					align="absmiddle"></a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div id="menu" class="collapse navbar-collapse">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a href="https://www.szchenxi.cf/newspaper/newspaper.html" class="nav-link">校刊</a></li>
+					<li class="nav-item"><a href="https://www.szchenxi.cf/newspaper/article.html" class="nav-link">文章</a></li>
+					<li class="nav-item"><a href="https://www.szchenxi.cf/photowall/photowall.html" class="nav-link">照片墙</a></li>
+					<li class="nav-item"><a href="http://tg.szchenxi.cf/" class="nav-link">投稿</a></li>
+					<li class="nav-item"><a href="https://www.szchenxi.cf/app/app.html" class="nav-link">客户端</a></li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">关于</a>
+						<div class="dropdown-menu" aria-labelledby="navbardropdown">
+							<a class="dropdown-item" href="https://www.szchenxi.cf/about/wxs.html">晨曦文学社</a>
+							<a class="dropdown-item" href="https://www.szchenxi.cf/about/cx.html">《晨曦》校刊</a>
+							<a class="dropdown-item" href="https://www.szchenxi.cf/about/online.html">线上校刊</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="https://www.szchenxi.cf/about/studentunion.html">珠海十中学生会</a>
+							<a class="dropdown-item" href="https://www.szchenxi.cf/about/zhsz.html">珠海市第十中学</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<div class="container py-3">
+				<div class="row pb-3">
+					<div class="col-md-8 pb-1 pb-mb-0">
+						<div class="jumbotron">
+							<h1 class="display-4">投稿</h1>
+							<hr class="my-4">
+							<p>
+								<h3>投稿支持两种方式：</h3>
+							</p>
+							1、通过邮箱发送到 <a href="mailto:chenxi@szchenxi.cf" class="font-italic"
+								style="text-decoration: underline;">chenxi@szchenxi.cf</a><br>
+							2、在线上传文件（推荐）。</p>
+							<div class="alert alert-warning" role="alert">
+								<div class="pb-3">
+									<h4 class="alert-heading">注意</h4>
+								</div>
+								<p>文件名格式为：“《作品名》 20xx级x班 姓名”<br>
+									如果是配文图片，请在文末注明文件名。</p>
+								<hr>
+								<p>上传格式并无限制，但是我们推荐您用以下格式。</p>
+								<p>文档：.doc/.docx/.rtf<br>
+									图片：.jpg/.jpeg/.png/.bmp/.raw</p>
+								<hr>
+								<a href="documents/《投稿模板》 20xx级x班 晨曦文学社.docx"><button type="button"
+										class="btn btn-outline-primary btn-block">投稿模板</button></a>
+							</div>
+							<hr>
+							<p>
+								<h3>在线上传文件</h3>
+							</p>
+							<form action="upload_file.php" method="post" enctype="multipart/form-data">
+								<label for="file">文件名：</label>
+								<input type="file" name="file" id="file">
+								<input type="submit" name="submit" value="提交">
+							</form>
+						</div>
+					</div>
+					<div class="col-md-4 pb-1 pb-md-0">
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title">投稿指南</h5>
+								<hr>
+								<a href="https://www.szchenxi.cf/notice/投稿指南.html"><img src="images/投稿指南.png"
+										class="img-responsive"></a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="text-center bg-dark text-muted py-2">
+		<p class="text-white-50"><a href="https://www.szchenxi.cf/about/cx.html" class="text-white-50">关于我们</a> | <a href="#"
+				class="text-white-50">回到顶部</a>
+			| <a href="https://www.szchenxi.cf/about/online.html" class="text-white-50">更新记录</a></p>
+		<a href="https://www.szchenxi.cf/about/wxs.html" class="text-white-50">
+			<p>Copyright © 晨曦文学社 All rights reserved.</p>
+		</a>
+	</footer>
+	<script src="https://www.szchenxi.cf/js/jquery-3.3.1.min.js"></script>
+	<script src="https://www.szchenxi.cf/js/popper.min.js"></script>
+	<script src="https://www.szchenxi.cf/js/bootstrap.min.js"></script>
+</body>
+
+</html>
