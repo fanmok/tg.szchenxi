@@ -32,13 +32,13 @@
 			el.parentNode.removeChild(el);
 		}
 	</script>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-7717011057644549",
-        enable_page_level_ads: true
-      });
-    </script>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({
+			google_ad_client: "ca-pub-7717011057644549",
+			enable_page_level_ads: true
+		});
+	</script>
 	<title>投稿 |《晨曦》校刊</title>
 	<link href="https://www.szchenxi.cf/favicon.ico" rel="shortcut icon">
 </head>
@@ -60,8 +60,8 @@
 					<li class="nav-item"><a href="http://tg.szchenxi.cf/" class="nav-link">投稿</a></li>
 					<li class="nav-item"><a href="https://www.szchenxi.cf/app/app.html" class="nav-link">客户端</a></li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbardropdown" role="button"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">关于</a>
+						<a class="nav-link dropdown-toggle" href="#" id="navbardropdown" role="button" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">关于</a>
 						<div class="dropdown-menu" aria-labelledby="navbardropdown">
 							<a class="dropdown-item" href="https://www.szchenxi.cf/about/wxs.html">晨曦文学社</a>
 							<a class="dropdown-item" href="https://www.szchenxi.cf/about/cx.html">《晨曦》校刊</a>
@@ -107,11 +107,20 @@
 							<p>
 								<h3>在线上传文件</h3>
 							</p>
-							<form action="upload_file.php" method="post" enctype="multipart/form-data">
-								<label for="file">文件名：</label>
-								<input type="file" name="file" id="file">
-								<input type="submit" name="submit" value="提交">
-							</form>
+							<div class="pb-4">
+								<form action="upload_file.php" method="post" enctype="multipart/form-data">
+									<input type="file" class="btn btn-primary btn-block" name="file" id="file">
+									<input class="btn btn-danger btn-block" id="submit" type="submit" name="submit" value="提交">
+								</form>
+							</div>
+							<div class="alert alert-warning" role="alert">
+								<div class="pb-3">
+									<h4 class="alert-heading">注意</h4>
+								</div>
+								<p>一次只能上传一个文件，点击按钮提交即可</p>
+								<p>如果弹出了upload.php页面就证明上传成功了<br>
+								你也可以点击<a href="upload/"><span class="badge badge-pill badge-primary text-white">上传目录</span></a>查看自己和别人上传的文件</p>
+							</div>
 						</div>
 					</div>
 					<div class="col-md-4 pb-1 pb-md-0">
@@ -130,8 +139,8 @@
 		</section>
 	</main>
 	<footer class="text-center bg-dark text-muted py-2">
-		<p class="text-white-50"><a href="https://www.szchenxi.cf/about/cx.html" class="text-white-50">关于我们</a> | <a href="#"
-				class="text-white-50">回到顶部</a>
+		<p class="text-white-50"><a href="https://www.szchenxi.cf/about/cx.html" class="text-white-50">关于我们</a> | <a
+				href="#" class="text-white-50">回到顶部</a>
 			| <a href="https://www.szchenxi.cf/about/online.html" class="text-white-50">更新记录</a></p>
 		<a href="https://www.szchenxi.cf/about/wxs.html" class="text-white-50">
 			<p>Copyright © 晨曦文学社 All rights reserved.</p>
