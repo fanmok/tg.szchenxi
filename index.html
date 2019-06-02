@@ -48,10 +48,20 @@
 			font-family: 'Noto Sans SC', sans-serif;
 		}
 	</style>
+<style>
+        .html5plus .html5plus-hide {
+            display: none
+        }
+    </style>
+    <script>
+        if (navigator.userAgent.indexOf("Html5Plus") > -1) {
+            document.body.classList.add("html5plus");
+        }  
+    </script>
 </head>
 
 <body class='lang-zh page-front' ontouchstart=''>
-	<header>
+	<header class="html5plus-hide">
 		<nav class="navbar navbar-expand-md navbar-dark bg-primary">
 			<a href="https://www.szchenxi.cf" class="navbar-brand"><img src="https://www.szchenxi.cf/images/logo.svg"
 					alt="Logo" width="50" height="50" title="Logo" align="absmiddle">
@@ -156,7 +166,7 @@
 			</div>
 		</section>
 	</main>
-	<footer class="text-center bg-dark text-muted py-2">
+	<footer class="html5plus-hide text-center bg-dark text-muted py-2">
 		<p class="text-white-50"><a href="https://www.szchenxi.cf/about/cx.html" class="text-white-50">关于我们</a> | <a
 				href="#" class="text-white-50">回到顶部</a>
 			| <a href="https://www.szchenxi.cf/about/online.html" class="text-white-50">更新记录</a></p>
